@@ -35,9 +35,23 @@
  	}
 
  	void show(){
+ 		background(0);
  		fill(myColor);
- 		ellipse(mouseX,mouseY,20,20);
- 		//ellipse(x+40,y+40,20,20);
+ 		ellipse(mouseX,mouseY,50,50);
+ 		fill(250);
+ 		ellipse(mouseX-10,mouseY-10, 20,20);
+ 		ellipse(mouseX+10,mouseY-10, 20,20);
+ 		fill(0);
+ 		ellipse(mouseX-5,mouseY-5,5,5);
+ 		ellipse(mouseX+5,mouseY-5,5,5);
+ 		ellipse(mouseX, mouseY+10, 10,10);
+ 		fill(150);
+ 		rect(mouseX-15,mouseY+25,30,50);
+ 		fill(myColor);
+ 		ellipse(mouseX-18,mouseY+30,20,20);
+ 		ellipse(mouseX+18,mouseY+30,20,20);
+ 		ellipse(mouseX-16,mouseY+80,20,20);
+ 		ellipse(mouseX+16,mouseY+80,20,20);
 
  	}
  	void move(){
